@@ -210,7 +210,7 @@ function untickRolls(){
 
 			<div class="roll">
 					<input type="checkbox" id="checkbox6" name="checkbox" value="afroroll" />
-						<img src="/components/infusions/randomroll/assets/files/thumbnails/afrothumbnail.gif" />
+						<img src="/components/infusions/randomroll/assets/files/thumbnails/afrothumbnail.png" />
 						<p>Afro</p>
 			</div>
 
