@@ -6,7 +6,7 @@
 </head>
 
 Current Rolls:<br/>
-<font color="lime"> <!-- im sorry -->
+<font color="lime">
 <?php
 $isrunning = exec('cat /pineapple/components/infusions/randomroll/running');
 

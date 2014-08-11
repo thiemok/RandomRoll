@@ -27,6 +27,7 @@ if(isset($_POST['stopRandomRollSubmit'])){
   exec('rm -rf /www/trollroll.php');
   exec('rm -rf /www/bsodroll.php');
   exec('rm -rf /www/afroroll.php');
+  exec('rm -rf /www/nedryroll.php');
   exec('echo "0" > /pineapple/components/infusions/randomroll/running');
 }
 
@@ -44,6 +45,7 @@ if(isset($_POST['rollsRemoveSubmit'])){
   exec('rm -rf /www/trollroll.php');
   exec('rm -rf /www/bsodroll.php');
   exec('rm -rf /www/afroroll.php');
+  exec('rm -rf /www/nedryroll.php');
 }
 
 // Submit
@@ -73,6 +75,9 @@ if(isset($_POST['rollsCheckBoxSubmit'])){
       break;
       case 'afroroll':
         exec('ln -s /pineapple/components/infusions/randomroll/assets/rolls/AfroRoll/afroroll.php /www/afroroll.php');
+      break;
+      case 'nedryroll':
+        exec('ln -s /pineapple/components/infusions/randomroll/assets/rolls/NedryRoll/nedryroll.php /www/nedryroll.php');
       break;
 
     }

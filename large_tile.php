@@ -214,6 +214,12 @@ function untickRolls(){
 						<p>Afro</p>
 			</div>
 
+			<div class="roll">
+					<input type="checkbox" id="checkbox7" name="checkbox" value="nedryroll" />
+						<img src="/components/infusions/randomroll/assets/files/thumbnails/nedrythumbnail.jpg" />
+						<p>Nedry</p>
+			</div>
+
 			<!-- Submit Roll Selection -->
 		<input valign="middle" class="rollSubmit" type="submit" name="rollsCheckBoxSubmit" value="Apply Selected Rolls." />
 	</form>
